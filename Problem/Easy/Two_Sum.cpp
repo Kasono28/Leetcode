@@ -1,7 +1,4 @@
-#ifndef LEETCODE_001_TWOSUM_H
-#define LEETCODE_001_TWOSUM_H
-
-class Leetcode_001_TwoSum {
+class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         vector<int> varr;
@@ -11,10 +8,9 @@ public:
                     varr.push_back(i);
                     varr.push_back(j);
                 }
-
+                
             }
         }
         return varr;
     }
 };
-#endif //LEETCODE_001_TWOSUM_H
